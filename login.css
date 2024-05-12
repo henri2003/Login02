@@ -20,19 +20,19 @@
       body {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 500px 1fr;
+        grid-template-rows: 300px 2fr;
           }  
 
           .Text {
-              
-               padding: 30px;
-            }
+           padding-top: 90px;
+         }
  
       
             .login{
+              min-width: 350px;
               grid-column: 1;
               grid-row: 2;
-              margin-bottom: 60px;
+            
                 }
     }
 
