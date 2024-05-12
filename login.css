@@ -55,14 +55,19 @@ body{
 
 .Text{
   display: grid;
-  grid-template-columns: 1fr;
-  min-height: 50px;
-  justify-self: center;
-  align-self:center;
-  font-size: clamp(40px, 2vw, 50px);
+  max-height: 600px;
+  justify-items: center;
+  align-items: center;
+ 
+  
+}
+
+.Text .h1{
+  
+  font-size: clamp(55px, 1vw, 120px);
   backdrop-filter: blur(2px) ;  
   color: #ffff ; 
-  
+
 }
 
  
