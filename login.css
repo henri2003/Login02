@@ -1,0 +1,143 @@
+@charset "uft-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Marcellus+SC&display=swap');
+ 
+ 
+
+*{  
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+@media (max-width:500px) { 
+
+      body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 1fr;
+          }  
+
+          .Text {
+              
+               padding: 30px;
+            }
+ 
+      
+            .login{
+              grid-column: 1;
+              grid-row: 2;
+              margin-bottom: 60px;
+                }
+    }
+
+ 
+
+ 
+
+
+body{
+    display: grid;
+    min-height: 710px;
+    grid-template-columns: 1fr 1fr ; 
+    background-image: url(imagens/pexels-photo-1106468-1-1400x700.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+
+.Text{
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 50px;
+  justify-self: center;
+  align-self:center;
+  font-size: clamp(40px, 2vw, 50px);
+  padding-bottom: 120px;
+  backdrop-filter: blur(2px) ;  
+  color: #ffff ; 
+  
+}
+
+ 
+
+
+.login{
+  display: grid;
+  width: 310px;
+  height:380px;
+  grid-template-columns: 1fr;
+  align-self: center;
+  justify-self: center;
+  border-radius: 30px;
+  background-color: #ffffffcf;
+
+}
+
+
+.login h1{
+  
+  justify-self: center;
+  align-self: self-end;
+  letter-spacing: 10px;
+  font-family: "Marcellus SC";
+  color: #724027;
+  
+}
+
+
+.user {
+  display: grid;
+  width: 300px;
+  height: 180px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 43px 43px 50px ;
+  justify-self: center;
+  align-self: self-end;
+ 
+
+}
+
+
+.user input{
+    min-width: 220px;
+    max-height: 35px;
+    justify-self: center;
+    text-align: center;
+    border-color: #f8cfcf;
+    color: #000000;
+    background-color: #e7e7e7bc;
+}
+
+
+
+
+.botao{
+  justify-self: center;
+  margin-top: 10px;
+ 
+}
+
+.botao button{
+    padding: 10px  25px  10px  25px;
+    border-radius: 30px;
+    background: linear-gradient(to left,#af9787ca,#f7c6aeac);
+    color: #ffff;
+}
+
+ 
+
+::placeholder{
+    color: #ffffff;
+}
+ 
+ 
+
+ 
+ 
