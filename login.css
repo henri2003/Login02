@@ -17,24 +17,25 @@
 
 @media (max-width:500px) { 
 
+  
+
       body {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 2fr;
+        grid-template-rows: 380px 2fr;
           }  
-
-          .Text {
-           padding-top: 90px;
-         }
+    
  
       
-            .login{
-              min-width: 350px;
-              grid-column: 1;
-              grid-row: 2;
-            
-                }
-    }
+                .login{
+                
+                  min-width: 300px;
+                  margin-bottom: 60px;
+                  grid-column: 1;
+                  grid-row: 2;
+                
+                    }
+        }
 
  
 
@@ -59,7 +60,6 @@ body{
   justify-self: center;
   align-self:center;
   font-size: clamp(40px, 2vw, 50px);
-  padding-bottom: 120px;
   backdrop-filter: blur(2px) ;  
   color: #ffff ; 
   
@@ -127,8 +127,9 @@ body{
 .botao button{
     padding: 10px  25px  10px  25px;
     border-radius: 30px;
-    background: linear-gradient(to left,#af9787ca,#f7c6aeac);
-    color: #ffff;
+    background: linear-gradient(to right ,#660a0a,#DDCEC7) ;
+      
+    color: #ffffffc1;
 }
 
  
